@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-02-23 15:14:18" Creator="toddw" Comments="" ID="82778337c7c79d052b3f03c8a3d8b14c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-03-02 07:05:47" Creator="toddw" Comments="" ID="af5be9faaf49818f779f7914fedf8059">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>2.1.0.12</Library_Version>
+    <Library_Version>2.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added classes for statistics for i64 and dbl</Release_Notes>
+      <Release_Notes>Added length override for flatten/unflatten functions</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -262,7 +262,7 @@
         <Path>..\src\Statistics</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7225B90B26540BB0A69CDDE37326C49</GUID>
+      <GUID>3B830BBFD5AE856DF2B54D31C3D8DE89</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,7 +325,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B60D33C96EA987875F7A6232F58665DD</GUID>
+      <GUID>431EA3B9ACBFE1B998D5EBD8C3B546C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC4D2CDD87142435D206FCAB83EFCF39</GUID>
+      <GUID>C9E9FEA480BE9DF2F1E3A3C4EDA18E6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -493,7 +493,7 @@
         <Path>..\src\DataTypes\Detect Endian.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA42951E1F7DB2C970AD5647901E623C</GUID>
+      <GUID>14A780AD3D6B6680E44EE75F07DD3FC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -556,7 +556,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4C2040027470D8C8470C49A57805D3D</GUID>
+      <GUID>347918BBB17240D29714889068C37FEC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -605,7 +605,7 @@
         <Path>..\src\Statistics\DBL</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>673CD48D18D7AA785D62833A4867DC25</GUID>
+      <GUID>D407C8AE03BABD6C2F95DD643D331072</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -696,7 +696,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4554874C2417CAEF096CAEC125C53A5</GUID>
+      <GUID>953BDD1978B2DD4D36DD0FB6698AAA30</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -787,7 +787,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AD30B6EBD2CF517BF271BE5BC5DAD9B</GUID>
+      <GUID>0A3A1A71DB54DB4D6F1C788EBC083C25</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -822,7 +822,7 @@
         <Path>..\src\DataTypes</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54F3FEA5027497537BC1B55492006426</GUID>
+      <GUID>990C2903CBDC18F517F7541A2439ADFF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -857,7 +857,7 @@
         <Path>..\src\DataTypes\CAN.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5EE5D70B9D93D99ED4F5F9C83F4019A</GUID>
+      <GUID>35B7E621886524878095524B7F23B2EA</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

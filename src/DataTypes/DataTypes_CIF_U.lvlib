@@ -8,11 +8,9 @@
 
 </Property>
 	<Item Name="Typedef" Type="Folder">
-		<Item Name="CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/CAN.ctl"/>
-		<Item Name="CAN_Payload_Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/CAN_Payload_Cluster.ctl"/>
-		<Item Name="Endian.ctl" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/Endian.ctl"/>
+		<Item Name="Endian.ctl" Type="VI" URL="../Endian.ctl"/>
 	</Item>
-	<Item Name="Detect Endian.vi" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/Detect Endian.vi"/>
-	<Item Name="Flatten Structure to U8.vim" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/Flatten Structure to U8.vim"/>
-	<Item Name="Unflatten Structure from U8.vim" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/Unflatten Structure from U8.vim"/>
+	<Item Name="Detect Endian.vi" Type="VI" URL="../Detect Endian.vi"/>
+	<Item Name="Flatten Structure to U8.vim" Type="VI" URL="../Flatten Structure to U8.vim"/>
+	<Item Name="Unflatten Structure from U8.vim" Type="VI" URL="../Unflatten Structure from U8.vim"/>
 </Library>
