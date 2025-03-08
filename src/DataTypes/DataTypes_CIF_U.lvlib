@@ -11,6 +11,18 @@
 		<Item Name="Endian.ctl" Type="VI" URL="../Endian.ctl"/>
 	</Item>
 	<Item Name="Detect Endian.vi" Type="VI" URL="../Detect Endian.vi"/>
+	<Item Name="Flatten I16.vi" Type="VI" URL="../Flatten I16.vi"/>
+	<Item Name="Flatten I32.vi" Type="VI" URL="../Flatten I32.vi"/>
+	<Item Name="Flatten I64.vi" Type="VI" URL="../Flatten I64.vi"/>
 	<Item Name="Flatten Structure to U8.vim" Type="VI" URL="../Flatten Structure to U8.vim"/>
+	<Item Name="Flatten U16.vi" Type="VI" URL="../Flatten U16.vi"/>
+	<Item Name="Flatten U32.vi" Type="VI" URL="../Flatten U32.vi"/>
+	<Item Name="Flatten U64.vi" Type="VI" URL="../Flatten U64.vi"/>
+	<Item Name="Unflatten I16.vi" Type="VI" URL="../Unflatten I16.vi"/>
+	<Item Name="Unflatten I32.vi" Type="VI" URL="../Unflatten I32.vi"/>
+	<Item Name="Unflatten I64.vi" Type="VI" URL="../Unflatten I64.vi"/>
 	<Item Name="Unflatten Structure from U8.vim" Type="VI" URL="../Unflatten Structure from U8.vim"/>
+	<Item Name="Unflatten U16.vi" Type="VI" URL="../Unflatten U16.vi"/>
+	<Item Name="Unflatten U32.vi" Type="VI" URL="../Unflatten U32.vi"/>
+	<Item Name="Unflatten U64.vi" Type="VI" URL="../Unflatten U64.vi"/>
 </Library>
