@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-03-08 10:49:54" Creator="toddw" Comments="" ID="96e64d7e8287f2b4866ccf6835ee13e5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-03-09 09:36:57" Creator="toddw" Comments="" ID="c0479a0ca6a8c3e4b24c8351a24241d2">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>3.1.0.3</Library_Version>
+    <Library_Version>3.1.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added Optimized flatten and unflatten functions for ints.</Release_Notes>
+      <Release_Notes>Fixed array size bug in unflatten for 32 and 16 bit numbers impacting performance.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -262,7 +262,7 @@
         <Path>..\src\Statistics</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46C24648F3BBA2FC5E7E4F2077BD6681</GUID>
+      <GUID>A6B1CBF7E54AB82169E3F28F818AD5CE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,7 +325,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72D46DB1BA0E416D50240811EFCBAB90</GUID>
+      <GUID>2E4AF5179B91C687FF48D5EA149DC1F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FFD941166690F1ED8DCB4CD163B06D44</GUID>
+      <GUID>90798C8440EB6FDC8B917BA5EFA6D999</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -647,7 +647,7 @@
         <Path>..\src\DataTypes\Unflatten U64.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E89A589F93EA085F32CE50679453D4CF</GUID>
+      <GUID>194DEDD3D9722779F76913D34DC94B04</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -710,7 +710,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F24ED8DB4A0F850EFB97CA0287227B3</GUID>
+      <GUID>EE90E82B2CFF1D35F97C8708BF7BCB4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -759,7 +759,7 @@
         <Path>..\src\Statistics\DBL</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E76D0858F43F9F7036921098D7781CA0</GUID>
+      <GUID>F6E9AA93516211AB98C18A56296A3995</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -850,7 +850,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>152DCA3D72DB741C7E2979A64860BEFC</GUID>
+      <GUID>A0373D947D809A461FD1BB26DD656FEB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -941,7 +941,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7684E2578C27C98CEE2B27358EBE6569</GUID>
+      <GUID>3AB3B38D60BAB1F73D32EEC5E0658795</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
