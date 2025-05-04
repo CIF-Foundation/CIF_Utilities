@@ -15,6 +15,7 @@
 	</Item>
 	<Item Name="Update Stats.vim" Type="VI" URL="../Core/Update Stats.vim"/>
 	<Item Name="Get Timestamp.vim" Type="VI" URL="../Core/Get Timestamp.vim"/>
+	<Item Name="Get Relative Seconds.vim" Type="VI" URL="../Core/Get Relative Seconds.vim"/>
 	<Item Name="Stats_I64_CIF_U.lvclass" Type="LVClass" URL="../I64/Stats_I64_CIF_U.lvclass"/>
 	<Item Name="Stats_DBL_CIF_U.lvclass" Type="LVClass" URL="../DBL/Stats_DBL_CIF_U.lvclass"/>
 </Library>
