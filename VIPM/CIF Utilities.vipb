@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-05-11 13:05:40" Creator="toddw" Comments="" ID="bdf51a8597c0c95f6848e075a7b3da32">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-05 14:34:20" Creator="toddw" Comments="" ID="a1fa4a3e0e52f6f2a753f38e234beb37">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.1.0.2</Library_Version>
+    <Library_Version>4.2.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added support to get the memory size of LV elements.  Updated flatten and unflatten code with protection using mem size detection.  </Release_Notes>
+      <Release_Notes>Added sequence structures in tick-count VIMs to assure proper handling by LV compiler.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -262,7 +262,7 @@
         <Path>..\src\Statistics</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C7DCD353C6FCA982ECE608184B05DAA</GUID>
+      <GUID>ECA497E6C53CE276C057E591310716A2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,7 +325,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9251CF3B37D801C4E0FD52B4E0CDCEB0</GUID>
+      <GUID>02C8D181453C10B0870A3ED02D845035</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>182243CBD461B2549F538AF2A1B476E8</GUID>
+      <GUID>E2820939241B1D7BB3F36801D7CFDA67</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -647,7 +647,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34C5E6086D4E885C66049264C06A0FE1</GUID>
+      <GUID>6CB1448AFF87194F3CD643E0717B4365</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -710,7 +710,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>254E8F09E24F33654A07FDA177460779</GUID>
+      <GUID>89B4473066690C3BCBBE0EC532644639</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -787,7 +787,7 @@
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3B5446CBBBF3EE6CE581D1E4F35CC33</GUID>
+      <GUID>6497AC1FC8C6EC958E686273EC7495D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -878,7 +878,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8368F6773ABF2AC5B12525D32B4F6F78</GUID>
+      <GUID>B3BC5165F6E4D405E6ABF3441C095F03</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -969,7 +969,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4B90A44C510DC04310664D45B10F2DE</GUID>
+      <GUID>7551124AC3DABA96D2014D5FBB67560C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1046,7 +1046,7 @@
         <Path>..\src\DataTypes\Utilities\Get Memory Size of Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FBC34264B0C96CDF187AC70FC34949AE</GUID>
+      <GUID>B94835DA544D2F760F5779BD8BA9FC8C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
