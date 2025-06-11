@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DataTypes_CIF_U.lvlib" Type="Library" URL="../../DataTypes_CIF_U.lvlib"/>
 		<Item Name="Test Optimized Flatten Unflatten.vi" Type="VI" URL="../Test Optimized Flatten Unflatten.vi"/>
+		<Item Name="Test Trim String.vi" Type="VI" URL="../Test Trim String.vi"/>
 		<Item Name="Test U8 Flatten and Unflatten.vi" Type="VI" URL="../Test U8 Flatten and Unflatten.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

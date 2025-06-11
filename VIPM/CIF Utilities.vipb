@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-05 14:34:20" Creator="toddw" Comments="" ID="a1fa4a3e0e52f6f2a753f38e234beb37">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-11 11:21:17" Creator="toddw" Comments="" ID="a77e8fca2bfafdf0424075680f9a38d3">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.2.0.4</Library_Version>
+    <Library_Version>4.3.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added sequence structures in tick-count VIMs to assure proper handling by LV compiler.</Release_Notes>
+      <Release_Notes>Added function to trim C end of string char from string.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -262,7 +262,7 @@
         <Path>..\src\Statistics</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ECA497E6C53CE276C057E591310716A2</GUID>
+      <GUID>97B730726B2973B96EDBC6FD184E524D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,7 +325,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02C8D181453C10B0870A3ED02D845035</GUID>
+      <GUID>80D502360E31D89D3814351ABC3EAE27</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2820939241B1D7BB3F36801D7CFDA67</GUID>
+      <GUID>035841445936AA3461BCEFE7D6E33E77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -647,7 +647,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CB1448AFF87194F3CD643E0717B4365</GUID>
+      <GUID>E57B2FEAA8A52AF17CB9D6ECD56097C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -710,7 +710,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89B4473066690C3BCBBE0EC532644639</GUID>
+      <GUID>59FBC5B49D02AA6F69403986DE75F1AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -787,7 +787,7 @@
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6497AC1FC8C6EC958E686273EC7495D5</GUID>
+      <GUID>845DFD7319B2BC8E81C3A55C391D7B9B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -878,7 +878,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3BC5165F6E4D405E6ABF3441C095F03</GUID>
+      <GUID>52A5C1CE36E8A91638493DAA00CAD967</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -969,7 +969,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7551124AC3DABA96D2014D5FBB67560C</GUID>
+      <GUID>C30576927227E01366381D220983CB59</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1046,7 +1046,21 @@
         <Path>..\src\DataTypes\Utilities\Get Memory Size of Variant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B94835DA544D2F760F5779BD8BA9FC8C</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Trim String.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\DataTypes\Utilities\Trim String.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A62C4045E3740D005884B7E8B2B7DE0F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
