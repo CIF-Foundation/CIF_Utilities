@@ -121,7 +121,6 @@ AddOutputFilter chunkFilter
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LabVIEW Time to TAI Time.vi" Type="VI" URL="../../System Time/LabVIEW Time to TAI Time.vi"/>
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Time_CIF_U.lvlib" Type="Library" URL="../../Time_CIF_U.lvlib"/>

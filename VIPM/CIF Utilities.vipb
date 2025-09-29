@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-11 11:21:17" Creator="toddw" Comments="" ID="a77e8fca2bfafdf0424075680f9a38d3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-09-28 20:34:58" Creator="toddw" Comments="" ID="5a65f9e60c5ab407ee2483fec94eb340">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.3.0.2</Library_Version>
+    <Library_Version>4.3.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added function to trim C end of string char from string.</Release_Notes>
+      <Release_Notes>Additional filtering added for clock slope calculation.  Clock errors changed to warnings.  </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -262,7 +262,7 @@
         <Path>..\src\Statistics</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>97B730726B2973B96EDBC6FD184E524D</GUID>
+      <GUID>E10ADDD2F6E406EB2ABC574512D4C399</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,7 +325,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>80D502360E31D89D3814351ABC3EAE27</GUID>
+      <GUID>4E19049F80C3545CB00DFD6E2B4392AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>035841445936AA3461BCEFE7D6E33E77</GUID>
+      <GUID>37214068FB33A51E3BF1978681E51522</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -647,7 +647,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E57B2FEAA8A52AF17CB9D6ECD56097C3</GUID>
+      <GUID>4F85E602BD8C614C6E5A983EFEEE2522</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -710,7 +710,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59FBC5B49D02AA6F69403986DE75F1AC</GUID>
+      <GUID>408DBF420AC326A4532311BE873C83BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -787,7 +787,7 @@
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>845DFD7319B2BC8E81C3A55C391D7B9B</GUID>
+      <GUID>57F4C7E1A7474D04205D8BF3034BD61A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -878,7 +878,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52A5C1CE36E8A91638493DAA00CAD967</GUID>
+      <GUID>903ED849DE30C78368832DAB6B15446E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -969,7 +969,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C30576927227E01366381D220983CB59</GUID>
+      <GUID>12E1018E7CAF9EAB4A8BA984E062CB44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1060,7 +1060,7 @@
         <Path>..\src\DataTypes\Utilities\Trim String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A62C4045E3740D005884B7E8B2B7DE0F</GUID>
+      <GUID>EBA7AE33E573C807360AE4E39CFF3E72</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

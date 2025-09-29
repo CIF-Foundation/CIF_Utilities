@@ -17,16 +17,18 @@
 		<Item Name="Timestamp Pair.ctl" Type="VI" URL="../Typedef/Timestamp Pair.ctl"/>
 		<Item Name="Future Time Event Limits.ctl" Type="VI" URL="../Typedef/Future Time Event Limits.ctl"/>
 		<Item Name="Errors.ctl" Type="VI" URL="../Typedef/Errors.ctl"/>
+		<Item Name="Clock Error Statistics.ctl" Type="VI" URL="../Typedef/Clock Error Statistics.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Error.vi" Type="VI" URL="../SubVIs/Add Error.vi"/>
 		<Item Name="Weighted Moving Average for Slope.vi" Type="VI" URL="../SubVIs/Weighted Moving Average for Slope.vi"/>
+		<Item Name="Calculate Error.vi" Type="VI" URL="../SubVIs/Calculate Error.vi"/>
 	</Item>
 	<Item Name="System Time" Type="Folder">
 		<Item Name="Sleep Until Future Time.vi" Type="VI" URL="../System Time/Sleep Until Future Time.vi"/>
 		<Item Name="Get System Time.vi" Type="VI" URL="../System Time/Get System Time.vi"/>
-		<Item Name="LabVIEW Time to UTC Time.vi" Type="VI" URL="../System Time/LabVIEW Time to UTC Time.vi"/>
 		<Item Name="TAI Time to LabVIEW Time.vi" Type="VI" URL="../System Time/TAI Time to LabVIEW Time.vi"/>
+		<Item Name="LabVIEW Time to TAI Time.vi" Type="VI" URL="../System Time/LabVIEW Time to TAI Time.vi"/>
 	</Item>
 	<Item Name="External Clocks" Type="Folder">
 		<Item Name="Get External Time.vi" Type="VI" URL="../External Clocks/Get External Time.vi"/>
