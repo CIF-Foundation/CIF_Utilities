@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-09-28 20:34:58" Creator="toddw" Comments="" ID="5a65f9e60c5ab407ee2483fec94eb340">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-10-08 11:09:47" Creator="toddw" Comments="" ID="daae5a3c286b3609b6f43a2b1f152469">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.3.0.3</Library_Version>
+    <Library_Version>4.4.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Additional filtering added for clock slope calculation.  Clock errors changed to warnings.  </Release_Notes>
+      <Release_Notes>Update to clock slope and intercept with changes to filtering for performance.  Addition of VI to check if a number is valid.  </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -262,7 +262,7 @@
         <Path>..\src\Statistics</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E10ADDD2F6E406EB2ABC574512D4C399</GUID>
+      <GUID>530D1AA4F0CDF8198FD1C289C33EC3C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -325,7 +325,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E19049F80C3545CB00DFD6E2B4392AC</GUID>
+      <GUID>B1759514E91FD4E7E087DB264EAD76BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -416,7 +416,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37214068FB33A51E3BF1978681E51522</GUID>
+      <GUID>1653A6C5E694D4CAED3DC43929DA746B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -647,7 +647,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F85E602BD8C614C6E5A983EFEEE2522</GUID>
+      <GUID>25FC3F71671EF6C9841E8EC2CA26ECF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -710,7 +710,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>408DBF420AC326A4532311BE873C83BF</GUID>
+      <GUID>9CA9E511AC00CEDC6230C5884B3305B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -787,7 +787,7 @@
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57F4C7E1A7474D04205D8BF3034BD61A</GUID>
+      <GUID>60EE3E58BDA51505D312CAEF1B76BF4D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -878,7 +878,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>903ED849DE30C78368832DAB6B15446E</GUID>
+      <GUID>9521C7ECD587ECBA566542C3D4D55EC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -969,7 +969,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12E1018E7CAF9EAB4A8BA984E062CB44</GUID>
+      <GUID>58136ED9B377B83ABBF7F2F71ED5E7D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1060,7 +1060,21 @@
         <Path>..\src\DataTypes\Utilities\Trim String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBA7AE33E573C807360AE4E39CFF3E72</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Valid Number.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\DataTypes\Utilities\Valid Number.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>5E7BEACC59ED49708E8B72E1BB8D81D4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

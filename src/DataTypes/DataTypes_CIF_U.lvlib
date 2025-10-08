@@ -44,5 +44,6 @@
 		<Item Name="Get Memory Size of Variant.vi" Type="VI" URL="../Utilities/Get Memory Size of Variant.vi"/>
 		<Item Name="Get Memory Size.vim" Type="VI" URL="../Utilities/Get Memory Size.vim"/>
 		<Item Name="Trim String.vi" Type="VI" URL="../Utilities/Trim String.vi"/>
+		<Item Name="Valid Number.vi" Type="VI" URL="../Utilities/Valid Number.vi"/>
 	</Item>
 </Library>
