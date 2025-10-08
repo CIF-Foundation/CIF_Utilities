@@ -93,6 +93,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Sleep Stats.vi" Type="VI" URL="../Sleep Stats.vi"/>
 		<Item Name="Test External Clock.vi" Type="VI" URL="../Test External Clock.vi"/>
+		<Item Name="Test External Clock2.vi" Type="VI" URL="../Test External Clock2.vi"/>
 		<Item Name="Test high resolution sleep.vi" Type="VI" URL="../Test high resolution sleep.vi"/>
 		<Item Name="Test parallel sleep.vi" Type="VI" URL="../Test parallel sleep.vi"/>
 		<Item Name="Test Sleep FTE.vi" Type="VI" URL="../Test Sleep FTE.vi"/>
