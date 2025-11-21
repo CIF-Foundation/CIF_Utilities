@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-10-30 08:46:23" Creator="toddw" Comments="" ID="f53997704248fccc868fc3e599305804">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-10-30 08:51:03" Creator="toddw" Comments="" ID="f08694fe9843bb1fbe3f545524d777fb">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.5.0.4</Library_Version>
+    <Library_Version>4.5.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -276,7 +276,7 @@
         <Path>..\src\Statistics</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B04A970261C00906EBEABF390155B347</GUID>
+      <GUID>706EE49AE7BC838704A554580D5DC58D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -339,7 +339,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E360736D8F9D45532C67483796FD5674</GUID>
+      <GUID>C3943EDC8472A8197DE5CAB9750B1B7A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -430,7 +430,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5D716EF23BF752D5556F80FB197F5E4</GUID>
+      <GUID>3FDE7EC01B399B75BB2B3F15010C2722</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -661,7 +661,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E2EFD03D48746FEBE3C30828E096BD2</GUID>
+      <GUID>874B97902041684A8E13A66C74A04F21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -724,7 +724,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3F9ED52DCECF2957AF799728AB294A7</GUID>
+      <GUID>9DAF417185246B129BA6CDA39E176F2E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -801,7 +801,7 @@
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>532993C312848887EC75730E3CBC88D2</GUID>
+      <GUID>AE427E4D0D2C6043616591E93C00331F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -892,7 +892,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BFDA149A787ABC0873772DE1A045552</GUID>
+      <GUID>1D2FB86ACE1E5B32666AE4B88CE44D69</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -983,7 +983,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC48374BF6FC889DED72B4E0A12B5F9D</GUID>
+      <GUID>2D2D3058046D55D4DA9D767E248E81F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1088,7 +1088,7 @@
         <Path>..\src\DataTypes\Utilities\Valid Number.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6DD057EF686A9CD82AB2C78B6F5E9C6</GUID>
+      <GUID>904C0B8203CD3EFBFE015CB8DF98BBCB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1137,7 +1137,7 @@
         <Path>..\src\File\File\Create Directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18B9DA55E806F7615DBAFD03B48812B7</GUID>
+      <GUID>BC7CA834A07917EC549C476BDE950B4A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

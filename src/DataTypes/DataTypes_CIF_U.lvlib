@@ -23,6 +23,16 @@
 		<Item Name="Unflatten U32.vi" Type="VI" URL="../Flatten Unflatten/Unflatten U32.vi"/>
 		<Item Name="Unflatten U64.vi" Type="VI" URL="../Flatten Unflatten/Unflatten U64.vi"/>
 	</Item>
+	<Item Name="Split Join" Type="Folder">
+		<Item Name="Join U8.vi" Type="VI" URL="../Split Join/Join U8.vi"/>
+		<Item Name="Join U16.vi" Type="VI" URL="../Split Join/Join U16.vi"/>
+		<Item Name="Join U32.vi" Type="VI" URL="../Split Join/Join U32.vi"/>
+		<Item Name="Join U64.vi" Type="VI" URL="../Split Join/Join U64.vi"/>
+		<Item Name="Split U8.vi" Type="VI" URL="../Split Join/Split U8.vi"/>
+		<Item Name="Split U16.vi" Type="VI" URL="../Split Join/Split U16.vi"/>
+		<Item Name="Split U32.vi" Type="VI" URL="../Split Join/Split U32.vi"/>
+		<Item Name="Split U64.vi" Type="VI" URL="../Split Join/Split U64.vi"/>
+	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Assert Fixed Size.vim" Type="VI" URL="../SubVIs/Assert Fixed Size.vim"/>
 		<Item Name="Assert No Array.vim" Type="VI" URL="../SubVIs/Assert No Array.vim"/>
