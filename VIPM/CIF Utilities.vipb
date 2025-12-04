@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-11-21 12:08:45" Creator="toddw" Comments="" ID="41bb48b6f3b289902f8526f3181225e5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-12-03 20:14:39" Creator="toddw" Comments="" ID="54e5d1ced43d0641353926203f273333">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.6.0.6</Library_Version>
+    <Library_Version>4.7.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added Network Utilities</Release_Notes>
+      <Release_Notes>Update to network utilities to also return MAC address and resource name (along with IP and Mask).  </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -293,7 +293,7 @@
         <Path>..\src\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1A0C366B5A9906F36F1DC03318A4BEA</GUID>
+      <GUID>D520FB377DBD2DA61D782DB34D988416</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -356,7 +356,7 @@
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B26F12F95D572B7FB32766F386DA6BB6</GUID>
+      <GUID>90AE4F6789ECC800B1337E6219DAD0ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -447,7 +447,7 @@
         <Path>..\src\Time\External Clocks</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C70DF6FAD8EE24153A036CD7CD101D2C</GUID>
+      <GUID>1A72C85719A45654D5A062296559A78C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -790,7 +790,7 @@
         <Path>..\src\DataTypes\Split Join\Join U64.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74450237D738230FCA2BFF9DE7B4CFC9</GUID>
+      <GUID>C28F582F32D36DA43D8DB477DE28B6B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -853,7 +853,7 @@
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35A385BECC672622D1B570DF16F1F8C2</GUID>
+      <GUID>19B8D226261421BD29BEDFDE8B334762</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -930,7 +930,7 @@
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EEE772880B19D0F1111810EBF2F26EE</GUID>
+      <GUID>EB2C55B97F55AFD1F90C93E9F419566B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1021,7 +1021,7 @@
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A959FCFD06BA616893C752B5EBF0028</GUID>
+      <GUID>6C24C5FD7D98E6C932B3B68FFCD9A11B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1112,7 +1112,7 @@
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>894F0F048EB650264C0E7DC2EA4E0455</GUID>
+      <GUID>8DF3B400C442C9353F107109AE1E45D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1217,7 +1217,7 @@
         <Path>..\src\DataTypes\Utilities\Valid Number.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8168E05D0724979FAA0060451D406C7</GUID>
+      <GUID>9DBFE33F00833A0B1DC5C683DC2C173F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1266,7 +1266,7 @@
         <Path>..\src\File\File\Create Directory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1F50B0B8B72F17B6AC87AB8F43427003</GUID>
+      <GUID>419C214A3FB2F57ADD7951C21F5B8350</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1329,7 +1329,7 @@
         <Path>..\src\Networking\Conversions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FB2063F47D2A00868AACB90D434FAE0</GUID>
+      <GUID>A1F3679B3BF0187EB05CD65FD9D6C68A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1406,7 +1406,7 @@
         <Path>..\src\Networking\IPV4\Check Subnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03D02A3D5BEDC8A3C2AAE847E32E44CE</GUID>
+      <GUID>74D12C34385A72F0395A504DE90F320F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1483,7 +1483,7 @@
         <Path>..\src\Networking\OS Helpers\Get IP in Subnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1EE13DD4ADC9D6C6C2C25E11AD377076</GUID>
+      <GUID>4C302AD36FD92306217DA03DBBDB3C3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1588,7 +1588,7 @@
         <Path>..\src\Networking\Conversions\DMAC U8 to DMAC U64.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0D7F48F1526BB6F3D5AB4DE08D826D7</GUID>
+      <GUID>8F84E3847F3C2ADE332B966F88331681</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
