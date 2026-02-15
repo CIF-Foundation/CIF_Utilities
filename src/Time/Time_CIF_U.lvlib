@@ -18,6 +18,7 @@
 		<Item Name="Future Time Event Limits.ctl" Type="VI" URL="../Typedef/Future Time Event Limits.ctl"/>
 		<Item Name="Errors.ctl" Type="VI" URL="../Typedef/Errors.ctl"/>
 		<Item Name="Clock Error Statistics.ctl" Type="VI" URL="../Typedef/Clock Error Statistics.ctl"/>
+		<Item Name="Linux Timestruct.ctl" Type="VI" URL="../Typedef/Linux Timestruct.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Error.vi" Type="VI" URL="../SubVIs/Add Error.vi"/>
@@ -27,6 +28,7 @@
 	<Item Name="System Time" Type="Folder">
 		<Item Name="Sleep Until Future Time.vi" Type="VI" URL="../System Time/Sleep Until Future Time.vi"/>
 		<Item Name="Get System Time.vi" Type="VI" URL="../System Time/Get System Time.vi"/>
+		<Item Name="Get Wall Clock Time.vi" Type="VI" URL="../System Time/Get Wall Clock Time.vi"/>
 		<Item Name="TAI Time to LabVIEW Time.vi" Type="VI" URL="../System Time/TAI Time to LabVIEW Time.vi"/>
 		<Item Name="LabVIEW Time to TAI Time.vi" Type="VI" URL="../System Time/LabVIEW Time to TAI Time.vi"/>
 	</Item>
