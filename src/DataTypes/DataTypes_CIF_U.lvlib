@@ -40,6 +40,7 @@
 		<Item Name="DataTypes Error.vi" Type="VI" URL="../SubVIs/DataTypes Error.vi"/>
 		<Item Name="Get Alignment by Type.vi" Type="VI" URL="../SubVIs/Get Alignment by Type.vi"/>
 		<Item Name="Get Alignment.vim" Type="VI" URL="../SubVIs/Get Alignment.vim"/>
+		<Item Name="Get Default Names.vi" Type="VI" URL="../SubVIs/Get Default Names.vi"/>
 		<Item Name="System Packed.vi" Type="VI" URL="../SubVIs/System Packed.vi"/>
 		<Item Name="Variant Array Size.vi" Type="VI" URL="../SubVIs/Variant Array Size.vi"/>
 	</Item>

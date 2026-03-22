@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-03-15 11:46:40" Creator="toddw" Comments="" ID="8c5acaf283ce1cacf6257df06771b9bf">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-03-22 14:49:30" Creator="toddw" Comments="" ID="79d4951e8233811f3e5f4d5c9ee5506f">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.11.0.5</Library_Version>
+    <Library_Version>4.12.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -37,7 +37,7 @@ Time conversions</Description>
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added function to format string to JSON string.</Release_Notes>
+      <Release_Notes>Added parent name input for cluster variant data.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -298,7 +298,7 @@ Time conversions</Description>
         <Path>..\src\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA172FC1E90C08CFE5F7EC155499152A</GUID>
+      <GUID>F482E310D33FD25FE22750C833944982</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -361,7 +361,7 @@ Time conversions</Description>
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB00751C0F3CDFBA683C69E48DF7A3AA</GUID>
+      <GUID>F6600675B434C7F03419A1BE2953265D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -466,7 +466,7 @@ Time conversions</Description>
         <Path>..\src\Time\System Time\Get Wall Clock Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0FD8C87026A7B06E30E4B7697D0D13F7</GUID>
+      <GUID>E51EE7BF0EE83EF49A5B89AFE310CB06</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -809,7 +809,7 @@ Time conversions</Description>
         <Path>..\src\DataTypes\Split Join\Join U64.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EF4AFB273854CB4D10469F0298B2A2B</GUID>
+      <GUID>C9C65C3C92F85DFFD18A6D63942E4D31</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -872,7 +872,7 @@ Time conversions</Description>
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01BE7CD22C40E557240708190D941F2D</GUID>
+      <GUID>CB5F705609E313F9D5675425B3CBAA2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -949,7 +949,7 @@ Time conversions</Description>
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C8916401751152E8282E214B7BBF6BE</GUID>
+      <GUID>CE73FE4EE637E428177C5EB542B44F26</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1040,7 +1040,7 @@ Time conversions</Description>
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEAF7AA03A2462EB24E1FC6FD5E0480B</GUID>
+      <GUID>A8F492F207AC1BD4EEA8B8C05565A77E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1131,7 +1131,7 @@ Time conversions</Description>
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7522D1474730076A78BECDA6830C7AD3</GUID>
+      <GUID>5103A6B07895E47BCB058A34F725B0F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1250,7 +1250,7 @@ Time conversions</Description>
         <Path>..\src\DataTypes\Utilities\String to JSON String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54B648BD3EF06859DCF6793C679AA784</GUID>
+      <GUID>360C2BE75CF84C1FA5467BA721A52579</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1313,7 +1313,7 @@ Time conversions</Description>
         <Path>..\src\File\File\Verify File Path.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E21C6523FF5B587EF3B31322337063F</GUID>
+      <GUID>4B42CF6C8C9AE7243F70B2F9D511871B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1376,7 +1376,7 @@ Time conversions</Description>
         <Path>..\src\Networking\Conversions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEF42F6D5183CA522E25C4BDA7EC2383</GUID>
+      <GUID>B3B42BD682B7E9882AA4100F4DACEA12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1453,7 +1453,7 @@ Time conversions</Description>
         <Path>..\src\Networking\IPV4\Check Subnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7813D3E235096233B518664376ACCF2B</GUID>
+      <GUID>D22283C63FE3248DE4315FABCDC2DA96</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1530,7 +1530,7 @@ Time conversions</Description>
         <Path>..\src\Networking\OS Helpers\Get IP in Subnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96D09206093C54209116D05EE7CEA72A</GUID>
+      <GUID>CE83F98D15F2AC4DDF5FD6AADF5C2196</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1635,7 +1635,7 @@ Time conversions</Description>
         <Path>..\src\Networking\Conversions\DMAC U8 to DMAC U64.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C172527787C94611CF67FDDEB1CF239</GUID>
+      <GUID>F19F4C6ED24EE7D04CD5FCE3FDD2AC0E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
