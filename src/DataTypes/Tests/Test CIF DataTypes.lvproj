@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DataTypes_CIF_U.lvlib" Type="Library" URL="../../DataTypes_CIF_U.lvlib"/>
+		<Item Name="Test Cluster Data.vi" Type="VI" URL="../Test Cluster Data.vi"/>
 		<Item Name="Test Join Split.vi" Type="VI" URL="../Test Join Split.vi"/>
 		<Item Name="Test Optimized Flatten Unflatten.vi" Type="VI" URL="../Test Optimized Flatten Unflatten.vi"/>
 		<Item Name="Test Trim String.vi" Type="VI" URL="../Test Trim String.vi"/>
