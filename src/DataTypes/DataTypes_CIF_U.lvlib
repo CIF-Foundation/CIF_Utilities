@@ -48,16 +48,25 @@
 		<Item Name="Cluster Info.ctl" Type="VI" URL="../Typedef/Cluster Info.ctl"/>
 		<Item Name="Endian.ctl" Type="VI" URL="../Typedef/Endian.ctl"/>
 		<Item Name="Errors.ctl" Type="VI" URL="../Typedef/Errors.ctl"/>
+		<Item Name="Generic Datatypes.ctl" Type="VI" URL="../Typedef/Generic Datatypes.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
+		<Item Name="Datatypes" Type="Folder">
+			<Item Name="Datatype String to Datatype.vi" Type="VI" URL="../Utilities/Datatype String to Datatype.vi"/>
+			<Item Name="Datatype to Datatype String.vi" Type="VI" URL="../Utilities/Datatype to Datatype String.vi"/>
+			<Item Name="Generic Datatype to NI DataType.vi" Type="VI" URL="../Utilities/Generic Datatype to NI DataType.vi"/>
+			<Item Name="NI Datatype to Generic DataType.vi" Type="VI" URL="../Utilities/NI Datatype to Generic DataType.vi"/>
+		</Item>
 		<Item Name="Detect Endian.vi" Type="VI" URL="../Utilities/Detect Endian.vi"/>
 		<Item Name="Get Cluster Info of Variant.vi" Type="VI" URL="../Utilities/Get Cluster Info of Variant.vi"/>
 		<Item Name="Get Memory Size of Variant.vi" Type="VI" URL="../Utilities/Get Memory Size of Variant.vi"/>
 		<Item Name="Get Memory Size.vim" Type="VI" URL="../Utilities/Get Memory Size.vim"/>
 		<Item Name="Get Variant Name.vi" Type="VI" URL="../Utilities/Get Variant Name.vi"/>
+		<Item Name="GUID to U8 GUID.vi" Type="VI" URL="../Utilities/GUID to U8 GUID.vi"/>
 		<Item Name="Set Variant Name.vi" Type="VI" URL="../Utilities/Set Variant Name.vi"/>
 		<Item Name="String to JSON String.vi" Type="VI" URL="../Utilities/String to JSON String.vi"/>
 		<Item Name="Trim String.vi" Type="VI" URL="../Utilities/Trim String.vi"/>
+		<Item Name="U8 GUID to GUID.vi" Type="VI" URL="../Utilities/U8 GUID to GUID.vi"/>
 		<Item Name="Valid Number.vi" Type="VI" URL="../Utilities/Valid Number.vi"/>
 	</Item>
 </Library>

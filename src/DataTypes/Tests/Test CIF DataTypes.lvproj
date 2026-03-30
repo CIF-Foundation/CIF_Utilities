@@ -13,6 +13,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DataTypes_CIF_U.lvlib" Type="Library" URL="../../DataTypes_CIF_U.lvlib"/>
 		<Item Name="Test Cluster Data.vi" Type="VI" URL="../Test Cluster Data.vi"/>
+		<Item Name="Test DataType Conversion.vi" Type="VI" URL="../Test DataType Conversion.vi"/>
+		<Item Name="Test GUID.vi" Type="VI" URL="../Test GUID.vi"/>
 		<Item Name="Test Join Split.vi" Type="VI" URL="../Test Join Split.vi"/>
 		<Item Name="Test Optimized Flatten Unflatten.vi" Type="VI" URL="../Test Optimized Flatten Unflatten.vi"/>
 		<Item Name="Test Trim String.vi" Type="VI" URL="../Test Trim String.vi"/>
@@ -23,6 +25,7 @@
 				<Item Name="Assert Fixed-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Fixed-Point Numeric Type.vim"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
