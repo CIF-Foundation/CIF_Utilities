@@ -12,6 +12,7 @@
 		<Item Name="Create Directory.vi" Type="VI" URL="../File/Create Directory.vi"/>
 		<Item Name="Prune to Directory.vi" Type="VI" URL="../File/Prune to Directory.vi"/>
 		<Item Name="Verify File Path.vi" Type="VI" URL="../File/Verify File Path.vi"/>
+		<Item Name="Build Path Multi-OS.vi" Type="VI" URL="../File/Build Path Multi-OS.vi"/>
 	</Item>
 	<Item Name="typedef" Type="Folder">
 		<Item Name="File Errors.ctl" Type="VI" URL="../typedef/File Errors.ctl"/>
