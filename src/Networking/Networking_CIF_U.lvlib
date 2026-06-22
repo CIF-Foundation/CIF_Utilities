@@ -23,6 +23,7 @@
 	</Item>
 	<Item Name="OS Helpers" Type="Folder">
 		<Item Name="ARP Lookup.vi" Type="VI" URL="../OS Helpers/ARP Lookup.vi"/>
+		<Item Name="Check if IP Port Used.vi" Type="VI" URL="../OS Helpers/Check if IP Port Used.vi"/>
 		<Item Name="Find Open IP Port.vi" Type="VI" URL="../OS Helpers/Find Open IP Port.vi"/>
 		<Item Name="Get Addresses.vi" Type="VI" URL="../OS Helpers/Get Addresses.vi"/>
 		<Item Name="Get IP in Subnet.vi" Type="VI" URL="../OS Helpers/Get IP in Subnet.vi"/>
