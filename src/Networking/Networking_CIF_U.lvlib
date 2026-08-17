@@ -29,7 +29,9 @@
 		<Item Name="Get IP in Subnet.vi" Type="VI" URL="../OS Helpers/Get IP in Subnet.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Network Error.vi" Type="VI" URL="../SubVIs/Network Error.vi"/>
+		<Item Name="Network Error Core.vi" Type="VI" URL="../SubVIs/Network Error Core.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Errors.ctl" Type="VI" URL="../Typedef/Errors.ctl"/>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-06-30 05:57:57" Creator="toddw" Comments="" ID="93fcd1c8b274d4a41fd45086dd2e3fde">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-08-16 17:06:29" Creator="toddw" Comments="" ID="3bef5488c98bdf23bfa403c242c16e65">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_CIF_Utilities</Package_File_Name>
-    <Library_Version>4.17.0.3</Library_Version>
+    <Library_Version>4.17.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -41,7 +41,7 @@ Functions are provided for:
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL>https://github.com/CIF-Foundation/CIF_Utilities</URL>
-      <Release_Notes>Added function to check if port is in use.</Release_Notes>
+      <Release_Notes>Memory optimization.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -316,7 +316,7 @@ Functions are provided for:
         <Path>..\src\Boolean\Boolean</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43A741AEDD1D715185A6D97887D33634</GUID>
+      <GUID>89207D9BFF3D1D1A7CCBFAA0192266B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -379,7 +379,7 @@ Functions are provided for:
         <Path>..\src\Errors\Human Readable Error Message.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D25E1F8C64B003335D63DA5C6A31704F</GUID>
+      <GUID>79571345A40BE44399A51E08854A0737</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -484,7 +484,7 @@ Functions are provided for:
         <Path>..\src\Time\System Time\Get Wall Clock Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E15FAE8BD6C0B104E54F58A1025A555E</GUID>
+      <GUID>588AE66448053E655D912C45F98DC4EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -827,7 +827,7 @@ Functions are provided for:
         <Path>..\src\DataTypes\Split Join\Join U64.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62283982BCC0B08C9DCE13F857E2428D</GUID>
+      <GUID>853A892BB356967EC0653076A099E53A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -890,7 +890,7 @@ Functions are provided for:
         <Path>..\src\Time\External Clocks\System Time to External Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6053EF35E2E20352139D1DE4C320C576</GUID>
+      <GUID>2FFF42801569E113E1CF55B5A9785711</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -967,7 +967,7 @@ Functions are provided for:
         <Path>..\src\Statistics\Core\Get Relative Seconds.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>284CF0213D45E1335BE4704C83513FE1</GUID>
+      <GUID>47B7FAB85B18A342F32CE3BC03C0C8CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1058,7 +1058,7 @@ Functions are provided for:
         <Path>..\src\Statistics\I64\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A19DC831020FB2CCD982901BA7798891</GUID>
+      <GUID>0304F3D2E3640E49BED042DB2EF605CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1149,7 +1149,7 @@ Functions are provided for:
         <Path>..\src\Statistics\DBL\Get Stats.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>498A11A5E1518EEBDD81F890E5BC6D19</GUID>
+      <GUID>4A104E3FC1FCBD1A8680CE70681E744E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1380,7 +1380,7 @@ Functions are provided for:
         <Path>..\src\DataTypes\Utilities\Datatype String to Datatype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C19205D2E26398843FF344200DEAE6D8</GUID>
+      <GUID>0F5CD8EE58A2DD8AFFAD9AC7F5C7D1FE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1457,7 +1457,7 @@ Functions are provided for:
         <Path>..\src\File\File\Build Path Multi-OS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48A9DE51D8FE96EA51A5B690C5433D54</GUID>
+      <GUID>5DC9C58D51C4C8F0CFC357884471CE0A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1520,7 +1520,7 @@ Functions are provided for:
         <Path>..\src\Networking\Conversions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6DAA9890EBA91EFC2F9CE1B376EC9E8</GUID>
+      <GUID>C051C6A1B3C711D6DCDA7B0EF2ABD3C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1597,7 +1597,7 @@ Functions are provided for:
         <Path>..\src\Networking\IPV4\Check Subnet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9062A39CFF99CC4B8673473E9F01E14C</GUID>
+      <GUID>416C0A0D2B60B38F3B751CF488B1DC8C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1688,7 +1688,7 @@ Functions are provided for:
         <Path>..\src\Networking\OS Helpers\Check if IP Port Used.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AE5A9A19E8786A30955FB49BDF4567D2</GUID>
+      <GUID>9A4B60871FEFC29884A0502254CE8DC5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1793,7 +1793,7 @@ Functions are provided for:
         <Path>..\src\Networking\Conversions\DMAC U8 to DMAC U64.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90CB74ABE0AF5949CCB6E80B370ABF1A</GUID>
+      <GUID>B9FB768A012E9A06DC3D3B03695BCBC0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1884,7 +1884,7 @@ Functions are provided for:
         <Path>..\src\Boolean\Boolean\Rising Edge (T init).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5EA1F34D95D0921CAC255665EF8F0D5A</GUID>
+      <GUID>5C9073F3CABD8B72A09C2F5E02BCD021</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -19,5 +19,6 @@
 	</Item>
 	<Item Name="SubVI" Type="Folder">
 		<Item Name="Add File Error.vi" Type="VI" URL="../SubVIs/Add File Error.vi"/>
+		<Item Name="Add File Error Core.vi" Type="VI" URL="../SubVIs/Add File Error Core.vi"/>
 	</Item>
 </Library>
