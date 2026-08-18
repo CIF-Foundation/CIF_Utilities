@@ -34,10 +34,12 @@
 		<Item Name="Split U64.vi" Type="VI" URL="../Split Join/Split U64.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Assert Fixed Size.vim" Type="VI" URL="../SubVIs/Assert Fixed Size.vim"/>
 		<Item Name="Assert No Array.vim" Type="VI" URL="../SubVIs/Assert No Array.vim"/>
 		<Item Name="Calculate Byte Start Address.vi" Type="VI" URL="../SubVIs/Calculate Byte Start Address.vi"/>
 		<Item Name="DataTypes Error.vi" Type="VI" URL="../SubVIs/DataTypes Error.vi"/>
+		<Item Name="DataTypes Error Core.vi" Type="VI" URL="../SubVIs/DataTypes Error Core.vi"/>
 		<Item Name="Get Alignment by Type.vi" Type="VI" URL="../SubVIs/Get Alignment by Type.vi"/>
 		<Item Name="Get Alignment.vim" Type="VI" URL="../SubVIs/Get Alignment.vim"/>
 		<Item Name="Get Default Names.vi" Type="VI" URL="../SubVIs/Get Default Names.vi"/>

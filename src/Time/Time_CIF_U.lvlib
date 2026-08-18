@@ -22,6 +22,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Add Error.vi" Type="VI" URL="../SubVIs/Add Error.vi"/>
+		<Item Name="Error Core.vi" Type="VI" URL="../SubVIs/Error Core.vi"/>
 		<Item Name="Weighted Moving Average for Slope.vi" Type="VI" URL="../SubVIs/Weighted Moving Average for Slope.vi"/>
 		<Item Name="Calculate Error.vi" Type="VI" URL="../SubVIs/Calculate Error.vi"/>
 	</Item>

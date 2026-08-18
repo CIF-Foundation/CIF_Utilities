@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="21008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*"!!!*Q(C=\&gt;3^&lt;3*2&amp;-8RY^5'4OFA21-%NQ5C;[/6;/%W1%"+M,)*H(CTWQ)NU-*JA=!.U!,_TZO(PQ+1J&lt;8EQ$-]'-\\_P(G-6)\LK7@/FY[:G?0M8ZIVJK/\6_O4P6D/&lt;Z`?_E`?^6`L0^9`T@J]S#H_H0_3Y@/(N`VX`6@O`\S^FZ@`B.]\C&amp;&gt;.3H&amp;F+)E*&gt;KP/ZL=Z#9XO=F.8O2&amp;8O2&amp;8O2&amp;HO2*HO2*HO2*(O2"(O2"(O2"XEZSE9N=Z+S+G&gt;R-:!9V!ZD'5'4?D-&gt;YD-&gt;Y_#LD-2\D-2\DI9G-RXC-RXC-BWYS(O-R(O-R(I:K%L?4()`R-,Q+4_%J0)7H]$#F#E]"+#9L"CY'A;'CMLAI0)7H](#JQF.Y#E`B+4R5K`!5HM*4?!I08&gt;KK6.--*TE?BF(C34S**`%E(I:7YEE]C3@R*"[G5_**0!ECG4!:()+34EG$Z%PC34R]+0%EHM34?")06?U/:6O:14/=Z(A#4_!*0)%H]$#%!E`A#4S"*`!QL!*0Y!E]A3@Q-*5#4_!*0!%EG*4J&amp;1Q7&gt;!Q;"5(AY&gt;6W3\3\6%U3\?R`T8'DKG^!^9WFPG(5.Y,[$6;`=?IX2(WBV2&gt;1@7(5@\$[$V%(KE_M0K"[1RVYXV.WF#VF1VF2&amp;J1Z:5K:$&amp;X`=]0$Y;$^@K`&gt;&lt;K@N&gt;KP.:K06;K8&amp;9K(Z@+\J&gt;+L*:0,]N0L&amp;/2Z8J_@3GOO\Z@XDXZM`$\@,@_XT\O&lt;XQZ#@[D_DD-_FL`"MV!]&gt;8TXG7;-HW2ZU0!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
@@ -9,6 +10,7 @@
 </Property>
 	<Item Name="Template" Type="Folder">
 		<Item Name="Add Error Template.vi" Type="VI" URL="../Add Error Template.vi"/>
+		<Item Name="Add Error Template Core.vi" Type="VI" URL="../Add Error Template Core.vi"/>
 	</Item>
 	<Item Name="Append Error Location.vi" Type="VI" URL="../Append Error Location.vi"/>
 	<Item Name="Human Readable Error Message.vi" Type="VI" URL="../Human Readable Error Message.vi"/>
