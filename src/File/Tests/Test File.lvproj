@@ -14,6 +14,7 @@
 		<Item Name="File_CIF_U.lvlib" Type="Library" URL="../../File_CIF_U.lvlib"/>
 		<Item Name="Test Build Path Multi-OS.vi" Type="VI" URL="../Test Build Path Multi-OS.vi"/>
 		<Item Name="Test Directory Prune and Create.vi" Type="VI" URL="../Test Directory Prune and Create.vi"/>
+		<Item Name="Test Path Not Found Error.vi" Type="VI" URL="../Test Path Not Found Error.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
