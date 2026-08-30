@@ -13,6 +13,7 @@
 		<Item Name="Prune to Directory.vi" Type="VI" URL="../File/Prune to Directory.vi"/>
 		<Item Name="Verify File Path.vi" Type="VI" URL="../File/Verify File Path.vi"/>
 		<Item Name="Build Path Multi-OS.vi" Type="VI" URL="../File/Build Path Multi-OS.vi"/>
+		<Item Name="File Not Found Error Update.vi" Type="VI" URL="../File/File Not Found Error Update.vi"/>
 	</Item>
 	<Item Name="typedef" Type="Folder">
 		<Item Name="File Errors.ctl" Type="VI" URL="../typedef/File Errors.ctl"/>
@@ -20,5 +21,6 @@
 	<Item Name="SubVI" Type="Folder">
 		<Item Name="Add File Error.vi" Type="VI" URL="../SubVIs/Add File Error.vi"/>
 		<Item Name="Add File Error Core.vi" Type="VI" URL="../SubVIs/Add File Error Core.vi"/>
+		<Item Name="File Not Found Error Core.vi" Type="VI" URL="../SubVIs/File Not Found Error Core.vi"/>
 	</Item>
 </Library>
