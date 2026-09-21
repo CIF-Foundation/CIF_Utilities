@@ -48,6 +48,8 @@
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Cluster Info.ctl" Type="VI" URL="../Typedef/Cluster Info.ctl"/>
+		<Item Name="Contiguous Structure for JSON Parse.ctl" Type="VI" URL="../Typedef/Contiguous Structure for JSON Parse.ctl"/>
+		<Item Name="Contiguous Structure.ctl" Type="VI" URL="../Typedef/Contiguous Structure.ctl"/>
 		<Item Name="Endian.ctl" Type="VI" URL="../Typedef/Endian.ctl"/>
 		<Item Name="Errors.ctl" Type="VI" URL="../Typedef/Errors.ctl"/>
 		<Item Name="Generic Datatypes.ctl" Type="VI" URL="../Typedef/Generic Datatypes.ctl"/>
@@ -59,8 +61,11 @@
 			<Item Name="Generic Datatype to NI DataType.vi" Type="VI" URL="../Utilities/Generic Datatype to NI DataType.vi"/>
 			<Item Name="NI Datatype to Generic DataType.vi" Type="VI" URL="../Utilities/NI Datatype to Generic DataType.vi"/>
 		</Item>
+		<Item Name="Contiguous Structure Converter Assistant.vi" Type="VI" URL="../Utilities/Contiguous Structure Converter Assistant.vi"/>
 		<Item Name="Detect Endian.vi" Type="VI" URL="../Utilities/Detect Endian.vi"/>
 		<Item Name="Get Cluster Info of Variant.vi" Type="VI" URL="../Utilities/Get Cluster Info of Variant.vi"/>
+		<Item Name="Get Element Info of Variant.vi" Type="VI" URL="../Utilities/Get Element Info of Variant.vi"/>
+		<Item Name="Get JSON Descriptor of Variant.vi" Type="VI" URL="../Utilities/Get JSON Descriptor of Variant.vi"/>
 		<Item Name="Get Memory Size of Variant.vi" Type="VI" URL="../Utilities/Get Memory Size of Variant.vi"/>
 		<Item Name="Get Memory Size.vim" Type="VI" URL="../Utilities/Get Memory Size.vim"/>
 		<Item Name="Get Variant Name.vi" Type="VI" URL="../Utilities/Get Variant Name.vi"/>
